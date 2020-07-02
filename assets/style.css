@@ -1,0 +1,249 @@
+.mphb_sc_search_results-wrapper .mphb-room-type,
+.mphb_sc_rooms-wrapper .mphb-room-type {
+  padding: 0;
+}
+
+.mphb_sc_search_results-wrapper .mphb-flexslider.mphb-gallery-thumbnail-slider,
+.mphb_sc_rooms-wrapper .mphb-flexslider.mphb-gallery-thumbnail-slider {
+  margin-bottom: 2em;
+}
+
+.mphb_sc_search_results-wrapper .mphb-flexslider.mphb-gallery-thumbnail-slider .gallery-item:last-child,
+.mphb_sc_rooms-wrapper .mphb-flexslider.mphb-gallery-thumbnail-slider .gallery-item:last-child {
+  margin-bottom: 0;
+}
+
+.mphb_sc_rooms-wrapper.is-style-list .mphb_room_type .mphb-gallery-thumbnail-slider {
+  display: none;
+}
+
+.mphb_sc_rooms-wrapper.is-style-list .mphb_room_type .mphb-astra-room-images-wrapper {
+  margin-bottom: 1.5em;
+}
+
+@media screen and (min-width: 992px) {
+  .mphb_sc_rooms-wrapper.is-style-list .mphb_room_type {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .mphb_sc_rooms-wrapper.is-style-list .mphb_room_type .mphb-astra-room-images-wrapper {
+    margin-right: 1.5em;
+    width: 100%;
+    max-width: 33%;
+    margin-bottom: 0;
+  }
+  .mphb_sc_rooms-wrapper.is-style-list .mphb_room_type .entry-title {
+    font-size: 1.375em;
+  }
+  .mphb_sc_rooms-wrapper.is-style-list .mphb_room_type .mphb-room-type-details-title {
+    font-size: 1.2em;
+  }
+  .mphb_sc_rooms-wrapper.is-style-list .mphb_room_type .mphb-astra-room-buttons-wrapper {
+    width: 100%;
+    max-width: 25%;
+    margin-left: 1.5em;
+  }
+}
+
+.mphb_sc_rooms-wrapper.is-style-grid {
+  margin: 0 -10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.mphb_sc_rooms-wrapper.is-style-grid:after {
+  display: table;
+  content: '';
+  clear: both;
+}
+
+.mphb_sc_rooms-wrapper.is-style-grid .mphb_room_type {
+  padding: 0 10px;
+  margin-top: 0 !important;
+  margin-bottom: 2em;
+  width: 33.333%;
+}
+
+.mphb_sc_rooms-wrapper.is-style-grid .mphb_room_type .mphb-gallery-thumbnail-slider {
+  display: none;
+}
+
+.mphb_sc_rooms-wrapper.is-style-grid .mphb_room_type .mphb-astra-room-images-wrapper {
+  margin-bottom: 1.5em;
+}
+
+@media screen and (min-width: 992px) {
+  .mphb_sc_rooms-wrapper.is-style-grid .mphb_room_type .entry-title {
+    font-size: 1.375em;
+  }
+  .mphb_sc_rooms-wrapper.is-style-grid .mphb_room_type .mphb-room-type-details-title {
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .mphb_sc_rooms-wrapper.is-style-grid.columns-2 .mphb_room_type {
+    width: 50%;
+  }
+  .mphb_sc_rooms-wrapper.is-style-grid.columns-3 .mphb_room_type {
+    width: 33.33333%;
+  }
+  .mphb_sc_rooms-wrapper.is-style-grid.columns-4 .mphb_room_type {
+    width: 25%;
+  }
+  .mphb_sc_rooms-wrapper.is-style-grid.columns-5 .mphb_room_type {
+    width: 20%;
+  }
+}
+
+.mphb-single-room-type-attributes,
+.mphb-loop-room-type-attributes {
+  margin-left: 1.25em;
+}
+
+.single-mphb_room_type .mphb-calendar {
+  margin-bottom: 1.6em;
+}
+
+@media screen and (min-width: 500px) {
+  .mphb_sc_search-form,
+  .mphb-booking-form {
+    margin: 0 -10px;
+    max-width: 428px;
+  }
+}
+
+.mphb_sc_search-form:after,
+.mphb-booking-form:after {
+  display: table;
+  content: '';
+  clear: both;
+}
+
+.mphb_sc_search-form select,
+.mphb_sc_search-form input[type="text"],
+.mphb-booking-form select,
+.mphb-booking-form input[type="text"] {
+  width: 100%;
+}
+
+@media screen and (min-width: 500px) {
+  .mphb_sc_search-form > *,
+  .mphb-booking-form > * {
+    width: 100%;
+    max-width: 50%;
+    padding: 0 10px;
+    float: left;
+  }
+  .mphb_sc_search-form > *.mphb-reserve-btn-wrapper, .mphb_sc_search-form > *.mphb-required-fields-tip,
+  .mphb-booking-form > *.mphb-reserve-btn-wrapper,
+  .mphb-booking-form > *.mphb-required-fields-tip {
+    max-width: 100%;
+  }
+}
+
+.mphb-recommendation {
+  margin-bottom: 1.6em;
+  padding-bottom: 1.6em;
+  padding-top: 1.6em;
+  border-bottom: 1px solid #eee;
+  border-top: 1px solid #eee;
+}
+
+.mphb-recommendation .mphb-recommendation-details-list {
+  margin-left: 1.25em;
+}
+
+.mphb_sc_checkout-wrapper .mphb-checkout-section {
+  padding-bottom: 2.5em;
+  margin-bottom: 2.5em;
+  border-bottom: 1px solid #eee;
+}
+
+.mphb_sc_checkout-wrapper .mphb-checkout-section.mphb-checkout-terms-wrapper, .mphb_sc_checkout-wrapper .mphb-checkout-section:last-child {
+  border-bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.mphb_sc_checkout-wrapper .mphb-checkout-section.mphb-checkout-terms-wrapper {
+  margin-top: 0;
+}
+
+.mphb_sc_checkout-wrapper input[type="radio"],
+.mphb_sc_checkout-wrapper input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.mphb_sc_checkout-wrapper .mphb-reserve-rooms-details {
+  margin-top: 2.5em;
+  padding-top: 2.5em;
+  border-top: 1px solid #eee;
+}
+
+.mphb_sc_checkout-wrapper .mphb-guest-name-wrapper label,
+.mphb_sc_checkout-wrapper .mphb-adults-chooser label {
+  display: block;
+}
+
+.mphb_sc_checkout-wrapper .mphb-guest-name-wrapper input,
+.mphb_sc_checkout-wrapper .mphb-guest-name-wrapper select,
+.mphb_sc_checkout-wrapper .mphb-adults-chooser input,
+.mphb_sc_checkout-wrapper .mphb-adults-chooser select {
+  width: 100%;
+  max-width: 408px;
+}
+
+.mphb_sc_checkout-wrapper .mphb_checkout-services-list {
+  margin-left: 0;
+}
+
+.mphb_sc_checkout-wrapper .mphb_checkout-services-list select {
+  margin: 0 5px;
+}
+
+.mphb_sc_checkout-wrapper .mphb-gateways-list {
+  margin-left: 0;
+}
+
+#mphb-customer-details input,
+#mphb-customer-details select,
+#mphb-customer-details textarea {
+  width: 100%;
+  max-width: 408px;
+}
+
+.mphb-room-type-gallery-wrapper .gallery-icon {
+  border: 0;
+}
+
+.comments-area.mphb-reviews .mphbr-new-review-box {
+  border: 0;
+  padding: 0;
+}
+
+.comments-area.mphb-reviews .mphbr-new-review-box .comment-form-comment {
+  margin-bottom: 1.5em;
+}
+
+.comments-area .mphbr-accommodation-rating {
+  margin-bottom: 2em;
+}
+
+.mphbr-rating-parameter-wrapper {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.mphbr-rating-parameter-wrapper .mphbr-stars {
+  margin-bottom: 0;
+}
+
+.mphbr-rating-parameter-wrapper label {
+  margin-top: 3px;
+}
