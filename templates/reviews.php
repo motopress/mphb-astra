@@ -34,10 +34,10 @@ do_action('mphbr_reviews_content_before');
                 'mphbr_comment_form_args',
                 array(
                     'class_form' => 'mphbr-review-form comment-form',
-                    'label_submit' => esc_html__('Post review', 'mphb-reviews'), // Change the title of send button
-                    'title_reply' => sprintf(esc_html__('Review "%s"', 'mphb-reviews'), get_the_title()), // Change the title of the reply section
+                    'label_submit' => esc_html__('Post review', 'mphb-astra'), // Change the title of send button
+                    'title_reply' => sprintf(esc_html__('Review "%s"', 'mphb-astra'), get_the_title()), // Change the title of the reply section
                     'comment_field' => '<p class="comment-form-comment"><label for="comment">' .
-                        esc_html__('Your review', 'mphb-reviews') .
+                        esc_html__('Your review', 'mphb-astra') .
                         '</label> <textarea id="comment" name="comment" cols="45" rows="4" maxlength="65525" required="required"></textarea></p>'
                 )
             );
@@ -72,8 +72,8 @@ do_action('mphbr_reviews_content_before');
             $comments_navigation_args = apply_filters(
                 'mphbr_comments_navigation_args',
                 array(
-                    'prev_text' => esc_html__('Older reviews', 'mphb-reviews'),
-                    'next_text' => esc_html__('Newer reviews', 'mphb-reviews'),
+                    'prev_text' => esc_html__('Older reviews', 'mphb-astra'),
+                    'next_text' => esc_html__('Newer reviews', 'mphb-astra'),
                 )
             );
 
@@ -84,7 +84,7 @@ do_action('mphbr_reviews_content_before');
             <?php // If comments are closed and there are comments, let's leave a little note, shall we? ?>
 
         <?php } else if (comments_open()) { ?>
-            <p class="no-comments"><?php esc_html_e('There are no reviews yet.', 'mphb-reviews'); ?></p>
+            <p class="no-comments"><?php esc_html_e('There are no reviews yet.', 'mphb-astra'); ?></p>
         <?php } ?>
 
     </div><!-- #comments -->

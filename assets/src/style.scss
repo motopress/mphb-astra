@@ -1,259 +1,269 @@
 .mphb_sc_search_results-wrapper,
 .mphb_sc_rooms-wrapper {
-	.mphb-room-type {
-		padding: 0;
-	}
+    .mphb-room-type {
+        padding: 0;
+    }
 
-	.mphb-flexslider {
-		&.mphb-gallery-thumbnail-slider {
-			margin-bottom: 2em;
+    .mphb-flexslider {
+        &.mphb-gallery-thumbnail-slider {
+            margin-bottom: 2em;
 
-			.gallery-item {
-				&:last-child {
-					margin-bottom: 0;
-				}
-			}
-		}
-	}
+            .gallery-item {
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
 }
 
 .mphb_sc_rooms-wrapper {
-	&.is-style-list {
-		.mphb_room_type {
-			.mphb-gallery-thumbnail-slider {
-				display: none;
-			}
+    &.is-style-list {
+        .mphb_room_type {
+            .mphb-gallery-thumbnail-slider {
+                display: none;
+            }
 
-			.mphb-astra-room-images-wrapper {
-				margin-bottom: 1.5em;
-			}
+            .mphb-astra-room-images-wrapper {
+                margin-bottom: 1.5em;
+            }
 
-			@media screen and(min-width: 992px) {
-				display: flex;
-				.mphb-astra-room-images-wrapper {
-					margin-right: 1.5em;
-					width: 100%;
-					max-width: 33%;
-					margin-bottom: 0;
-				}
+            @media screen and(min-width: 992px) {
+                display: flex;
+                .mphb-astra-room-images-wrapper {
+                    margin-right: 1.5em;
+                    width: 100%;
+                    max-width: 33%;
+                    margin-bottom: 0;
+                }
 
-				.entry-title {
-					font-size: 1.375em;
-				}
+                .entry-title {
+                    font-size: 1.375em;
+                }
 
-				.mphb-room-type-details-title {
-					font-size: 1.2em;
-				}
+                .mphb-room-type-details-title {
+                    font-size: 1.2em;
+                }
 
-				.mphb-astra-room-buttons-wrapper {
-					width: 100%;
-					max-width: 25%;
-					margin-left: 1.5em;
-				}
-			}
-		}
-	}
+                .mphb-astra-room-buttons-wrapper {
+                    width: 100%;
+                    max-width: 25%;
+                    margin-left: 1.5em;
+                }
+            }
+        }
+    }
 
-	&.is-style-grid {
-		margin: 0 -10px;
-		display: flex;
-		flex-wrap: wrap;
+    &.is-style-grid {
+        margin: 0 -10px;
+        display: flex;
+        flex-wrap: wrap;
 
-		&:after {
-			display: table;
-			content: '';
-			clear: both;
-		}
+        &:after {
+            display: table;
+            content: '';
+            clear: both;
+        }
 
-		.mphb_room_type {
-			padding: 0 10px;
-			margin-top: 0 !important;
-			margin-bottom: 2em;
-			width: 33.333%;
+        .mphb_room_type {
+            padding: 0 10px;
+            margin-top: 0 !important;
+            margin-bottom: 2em;
+            width: 33.333%;
 
-			.mphb-gallery-thumbnail-slider {
-				display: none;
-			}
+            .mphb-gallery-thumbnail-slider {
+                display: none;
+            }
 
-			.mphb-astra-room-images-wrapper {
-				margin-bottom: 1.5em;
-			}
+            .mphb-astra-room-images-wrapper {
+                margin-bottom: 1.5em;
+            }
 
-			@media screen and(min-width: 992px) {
-				.entry-title {
-					font-size: 1.375em;
-				}
+            @media screen and(min-width: 992px) {
+                .entry-title {
+                    font-size: 1.375em;
+                }
 
-				.mphb-room-type-details-title {
-					font-size: 1.2em;
-				}
-			}
-		}
+                .mphb-room-type-details-title {
+                    font-size: 1.2em;
+                }
+            }
+        }
 
-		@media screen and(min-width: 992px) {
-			@for $i from 2 through 5 {
-				&.columns-#{$i} {
-					.mphb_room_type {
-						width: 100%/$i;
-					}
-				}
-			}
-		}
+        @media screen and(min-width: 992px) {
+            @for $i from 2 through 5 {
+                &.columns-#{$i} {
+                    .mphb_room_type {
+                        width: 100%/$i;
+                    }
+                }
+            }
+        }
 
-	}
+    }
 }
 
 .mphb-single-room-type-attributes,
 .mphb-loop-room-type-attributes {
-	margin-left: 1.25em;
+    margin-left: 1.25em;
 }
 
 .single-mphb_room_type {
-	.mphb-calendar {
-		margin-bottom: 1.6em;
-	}
+    .mphb-calendar {
+        margin-bottom: 1.6em;
+    }
 }
 
 .mphb_sc_search-form,
 .mphb-booking-form {
-	@media screen and(min-width: 500px) {
-		margin: 0 -10px;
-		max-width: 428px;
-	}
+    @media screen and(min-width: 500px) {
+        margin: 0 -10px;
+        max-width: 428px;
+    }
 
-	&:after {
-		display: table;
-		content: '';
-		clear: both;
-	}
+    &:after {
+        display: table;
+        content: '';
+        clear: both;
+    }
 
-	select,
-	input[type="text"] {
-		width: 100%;
-	}
+    select,
+    input[type="text"] {
+        width: 100%;
+    }
 
-	@media screen and(min-width: 500px) {
-		> * {
-			width: 100%;
-			max-width: 50%;
-			padding: 0 10px;
-			float: left;
+    @media screen and(min-width: 500px) {
+        > * {
+            width: 100%;
+            max-width: 50%;
+            padding: 0 10px;
+            float: left;
 
-			&.mphb-reserve-btn-wrapper,
-			&.mphb-required-fields-tip {
-				max-width: 100%;
-			}
+            &.mphb-reserve-btn-wrapper,
+            &.mphb-required-fields-tip {
+                max-width: 100%;
+            }
 
-		}
-	}
+        }
+    }
+}
+
+.mphb_sc_search-form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+
+    .is-style-horizontal-form & {
+        max-width: none;
+    }
 }
 
 .mphb-recommendation {
-	margin-bottom: 1.6em;
-	padding-bottom: 1.6em;
-	padding-top: 1.6em;
-	border-bottom: 1px solid #eee;
-	border-top: 1px solid #eee;
+    margin-bottom: 1.6em;
+    padding-bottom: 1.6em;
+    padding-top: 1.6em;
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
 
-	.mphb-recommendation-details-list {
-		margin-left: 1.25em;
-	}
+    .mphb-recommendation-details-list {
+        margin-left: 1.25em;
+    }
 }
 
 .mphb_sc_checkout-wrapper {
-	.mphb-checkout-section {
-		padding-bottom: 2.5em;
-		margin-bottom: 2.5em;
-		border-bottom: 1px solid #eee;
+    .mphb-checkout-section {
+        padding-bottom: 2.5em;
+        margin-bottom: 2.5em;
+        border-bottom: 1px solid #eee;
 
-		&.mphb-checkout-terms-wrapper,
-		&:last-child {
-			border-bottom: 0;
-			margin-bottom: 0;
-			padding-bottom: 0;
-		}
+        &.mphb-checkout-terms-wrapper,
+        &:last-child {
+            border-bottom: 0;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
 
-		&.mphb-checkout-terms-wrapper {
-			margin-top: 0;
-		}
-	}
+        &.mphb-checkout-terms-wrapper {
+            margin-top: 0;
+        }
+    }
 
-	input[type="radio"],
-	input[type="checkbox"] {
-		margin-right: 5px;
-	}
+    input[type="radio"],
+    input[type="checkbox"] {
+        margin-right: 5px;
+    }
 
-	.mphb-reserve-rooms-details {
-		margin-top: 2.5em;
-		padding-top: 2.5em;
-		border-top: 1px solid #eee;
-	}
+    .mphb-reserve-rooms-details {
+        margin-top: 2.5em;
+        padding-top: 2.5em;
+        border-top: 1px solid #eee;
+    }
 
-	.mphb-guest-name-wrapper,
-	.mphb-adults-chooser {
-		label {
-			display: block;
-		}
+    .mphb-guest-name-wrapper,
+    .mphb-adults-chooser {
+        label {
+            display: block;
+        }
 
-		input,
-		select {
-			width: 100%;
-			max-width: 408px;
-		}
-	}
+        input,
+        select {
+            width: 100%;
+            max-width: 408px;
+        }
+    }
 
-	.mphb_checkout-services-list {
-		margin-left: 0;
+    .mphb_checkout-services-list {
+        margin-left: 0;
 
-		select {
-			margin: 0 5px;
-		}
-	}
+        select {
+            margin: 0 5px;
+        }
+    }
 
-	.mphb-gateways-list {
-		margin-left: 0;
-	}
+    .mphb-gateways-list {
+        margin-left: 0;
+    }
 }
 
 #mphb-customer-details {
-	input,
-	select,
-	textarea {
-		width: 100%;
-		max-width: 408px;
-	}
+    input,
+    select,
+    textarea {
+        width: 100%;
+        max-width: 408px;
+    }
 }
 
 .mphb-room-type-gallery-wrapper {
-	.gallery-icon {
-		border: 0;
-	}
+    .gallery-icon {
+        border: 0;
+    }
 }
 
 .comments-area {
-	&.mphb-reviews .mphbr-new-review-box {
-		border: 0;
-		padding: 0;
+    &.mphb-reviews .mphbr-new-review-box {
+        border: 0;
+        padding: 0;
 
-		.comment-form-comment {
-			margin-bottom: 1.5em;
-		}
-	}
+        .comment-form-comment {
+            margin-bottom: 1.5em;
+        }
+    }
 
-	.mphbr-accommodation-rating {
-		margin-bottom: 2em;
-	}
+    .mphbr-accommodation-rating {
+        margin-bottom: 2em;
+    }
 }
 
 .mphbr-rating-parameter-wrapper {
-	align-items: center;
+    align-items: center;
 
-	.mphbr-stars {
-		margin-bottom: 0;
-	}
+    .mphbr-stars {
+        margin-bottom: 0;
+    }
 
-	label {
-		margin-top: 3px;
-	}
+    label {
+        margin-top: 3px;
+    }
 }
 
